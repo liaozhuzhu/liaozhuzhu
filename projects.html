@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/styles.css">
+    <link rel="icon" href="./static/images/logo.ico">
+    <script src="https://kit.fontawesome.com/af5fb8c1a6.js" crossorigin="anonymous"></script>
+    <title>Liao Zhu | Projects</title>
+</head> 
+<body>
+    <nav class="navbar">
+        <a href="index" onclick="changeURL('h')"><img src="./static/images/logo.ico"></a>
+        <ul>
+            <li><a href="about" onclick="changeURL('a')">About</a></li>
+            <li><a href="projects" onclick="changeURL('p')">Projects</a></li>
+            <li><a href="./liaozhu.pdf" target="_blank"><strong>Resume</strong></a></li>
+        </ul>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="about" class="nav-link" id="about" onclick="changeURL()">About</a></li>
+                <li><a href="projects" class="nav-link" id="projects" onclick="changeURL()">Projects</a></li>
+                <li><a href="./liaozhu.pdf" class="nav-link" target="_blank"><strong>Resume</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-container">
+        <div class="header">
+            <h1 class="title">My Projects</h1>
+            <p class="desc">See what I do in my free time!</p>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <h1 class="project-title">TikTok Video Generator</h1>
+                <p>
+                    <span class="language">Python</span>
+                    <span class="language">ZenQuote API</span>
+                    <span class="language">Moviepy</span>
+                </p>
+                <p class="project-desc">
+                    Create inspirational TikTok quote videos with one line of code. 
+                    This bot produces TikTok videos similar to thousands of quote videos found on the app.
+                    Utilizes moviepy library to compile a random song, quote, and video together into a short TikTok video.
+                    This video is then uploaded manually in order to fit TikTok's community guideline.
+                </p>
+                <div class="flex-container">
+                    <a class="btn-primary project-link" href="https://www.tiktok.com/@liaozhuzhubot" target="_blank"><i class="fa-solid fa-globe"></i> Deployment</a>
+                    <a class="btn-primary project-link" href="https://github.com/liaozhuzhu/TikTokQuoteVideoGenerator" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <h1 class="project-title">QiT</h1>
+                <p>
+                    <span class="language">Python</span>
+                    <span class="language">Flask</span>
+                    <span class="language">JavaScript</span>
+                    <span class="language">HTML</span>
+                    <span class="language">CSS</span>
+                    <span class="language">Jinja</span>
+                    <span class="language">PostgreSQL</span>
+                </p>
+                <p class="project-desc">QiT is a fully functional full stack flask web app that is intended for students to communicate and reach out for help on school related subjects. I was heavily inspired to make this app by Reddit, Quizlet, and Stackoverflow. During this project, I learned a lot about the flask python framework and other useful skills such as SQL and Jinja. Jinja made viewing different user pages and handling conditionals in HTML super easy. The biggest struggle I had during this project was managing relationships between columns inside my database.
+                    I poured a majority of the hours learning and relearning how database relationships and columns worked. Eventually after grasping the subject a little better, I was able to add other cool functions such as commenting and liking posts. I still have a lot to learn when it comes to making full stack applications, however this was definitely a huge milestone for me.
+                </p>
+                <div class="flex-container">
+                    <a class="btn-primary project-link" href="https://qit-official.herokuapp.com/" target="_blank"><i class="fa-solid fa-globe"></i> Deployment</a>
+                    <a class="btn-primary project-link" href="https://github.com/liaozhuzhu/qit" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h1 class="project-title">Clask</h1>
+                <p>
+                    <span class="language">Python</span>
+                    <span class="language">Flask</span>
+                    <span class="language">AssemblyAi</span>
+                    <span class="language">JavaScript</span>
+                    <span class="language">HTML</span>
+                    <span class="language">CSS</span>
+                    <span class="language">Jinja</span>
+                    <span class="language">MySql</span>
+                </p>
+                <p class="project-desc">
+                    Clask uses AssemblyAi to transcribe speech into text. These transcriptions can then be saved if the user has a Clask account. The backend is handled with Python and MySQL while the frontend is JS, HTML/CSS. 
+                    <br/>
+                    *The site can be found <a class="desc-link" href="https://clask.herokuapp.com">here</a>. However, there are issues which I am trying to fix so the transcription functionality is down. If you would like to 
+                    experience all of Clask on your own, feel free to read the documentation on my Github below.
+                </p>
+                <div class="flex-container">
+                    <a class="btn-primary project-link" href="https://github.com/liaozhuzhu/clask" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h1 class="project-title">Statipy</h1>
+                <p>
+                    <span class="language">Python</span>
+                    <span class="language">Discord.py</span>
+                    <span class="language">Spotipy</span>
+                </p>
+                <p class="project-desc">
+                    After doing many projects with web development, I wanted to try something new and settled on making a Discord bot.
+                    This Discord bot utilizes two very important API's: Discord.py and Spotipy. This bot doesn't try to be
+                    one of those "music playing bots" but rather it allows server members to 
+                    share profiles, songs, artists, stats, etc. amongst one another without having to leave the Discord text channel.
+                    I got this idea after thinking about what applications I used the most, especially during Covid time.
+                </p>
+                <div class="flex-container">
+                    <a class="btn-primary project-link" href="https://statipy-bot.herokuapp.com" target="_blank"><i class="fa-solid fa-file"></i> Documentation</a>
+                    <a class="btn-primary project-link" href="https://github.com/liaozhuzhu/statipy" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h1 class="project-title">UIRobotics Rover</h1>
+                <p>
+                    <span class="language">Python</span>
+                    <span class="language">ROS</span>
+                    <span class="language">Jetson Nano</span>
+                </p>
+                <p class="project-desc">
+                    One of my interests includes embedded software development. Joining the UIRobotics team was a step in that direction for me. The rover was UIRobotics 2022 robot, which competed in the Canadian International Rover Challenge (CIRC®). Together, we used mainly python alongside middleware such as ROS to help give functionality to the robot and enable controls such as arm movement, gps signaling, and camera detection.
+                </p>
+                <div class="flex-container">
+                    <a class="btn-primary project-link" href="https://github.com/liaozhuzhu/UIRobotics" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h1 class="project-title">Sorting Visualizer</h1>
+                <p>
+                    <span class="language">JavaScript</span>
+                    <span class="language">HTML</span>
+                    <span class="language">CSS</span>
+                </p>
+                <p class="project-desc">
+                    The sorting visualizer was one of the most challenging projects I had when first learning front-end web development. DOM manipulation was a hard concept for me to really get used to.
+                    However, after many hours of struggling, it paid off. The sorting visualizer enables the user to visualize how different sorting algorithms work. The UI allows for functions such as changing the speed, the amount of blocks, and the sorting algorithm. 
+                    This project was really fun and looking back at it makes me feel very proud about how much I had accomplished.
+                </p>
+                <div class="flex-container">
+                    <a class="btn-primary project-link" href="https://liaozhuzhu.github.io/sort/" target="_blank"><i class="fa-solid fa-globe"></i> Deployment</a>
+                    <a class="btn-primary project-link" href="https://github.com/liaozhuzhu/sort" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <ul class="list">
+            <li><a href="https://github.com/liaozhuzhu" class="footer-link" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/liao-zhu/" class="footer-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="mailto:liao.zhu.cs@gmail.com" class="footer-link" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="./liaozhu.pdf" class="footer-link" target="_blank"><i class="fa-solid fa-file"></i></a></li>
+        </ul>
+        <p class="copyright"><i class="fa-regular fa-copyright"></i> Liao Zhu 2022</p>
+        <p class="copyright">Designer of Panda Logo: <a href="https://www.linkedin.com/in/lily-dosedel/" class="desc-link" target="_blank">Lily Dosedel</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/styles.css">
+    <link rel="icon" href="./static/images/logo.ico">
+    <script src="https://kit.fontawesome.com/af5fb8c1a6.js" crossorigin="anonymous"></script>
+    <title>Liao Zhu | About</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index" onclick="changeURL('h')"><img src="./static/images/logo.ico"></a>
+        <ul>
+            <li><a href="about" onclick="changeURL('a')">About</a></li>
+            <li><a href="projects" onclick="changeURL('p')">Projects</a></li>
+            <li><a href="./liaozhu.pdf" target="_blank"><strong>Resume</strong></a></li>
+        </ul>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="about" class="nav-link" id="about" onclick="changeURL()">About</a></li>
+                <li><a href="projects" class="nav-link" id="projects" onclick="changeURL()">Projects</a></li>
+                <li><a href="./liaozhu.pdf" class="nav-link" target="_blank"><strong>Resume</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-container">
+        <div class="header">
+            <h1 class="title">About Me</h1>
+            <p class="desc">Get to know me!</p>
+        </div>
+        <div class="section-body">
+            <div class="about-content">
+                <h1 class="subtitle">Who I am</h1>
+                <img src="./static/images/pfp.png" class="pfp">
+                <p class="desc">My name is Liao Zhu. I am an honors student pursuing a B.S in Computer Science at the University of Iowa. I'm interested in web development, software engineering, embedded software, robotics, and most importantly - learning. My goal for the future is to become a software engineer.</p>
+                <h1 class="subtitle" id="do-subtitle">What I do</h1>
+                <p class="desc">Currently, I am working with many different types of software, trying to learn more each day. I have the most experience developing web applications, and recently have become a web development intern for UIowa's <a href="https://engineering.uiowa.edu/" class="desc-link" target="_blank">College of Engineering</a> where I develop the front end of numerous pages for the college. 
+                    I am also an incoming Software Engineer Intern at <a href="https://www.collinsaerospace.com/" class="desc-link" target="_blank">Collins Aerospace</a>. I am more than excited to be able to contribute my knowledge to a team, and learn as much as I can from such a great company.
+                    Some of my extracurriculars include being a member for my school's <a href="https://acm.org.uiowa.edu/" class="desc-link" target="_blank">ACM</a> club, as well as a software developer for <a href="https://engineering.uiowa.edu/current-students/something-more-opportunities/student-organizations/list-student-organizations-18" class="desc-link" target="_blank">UIowa Robotics</a>.
+                    In my free time I enjoy coding and recording my activites/hobbies on my <a href="https://www.youtube.com/@liaozhu" class="desc-link" target="_blank">youtube</a> channel.
+                </p>
+                <br/>
+                <p class="desc">To see more of what I've done, check out my <a href="projects" class="desc-link">projects</a> page, or my <a href="./liaozhu.pdf" class="desc-link" target="_blank">resume</a> for even more.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <ul class="list">
+            <li><a href="https://github.com/liaozhuzhu" class="footer-link" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/liao-zhu/" class="footer-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="mailto:liao.zhu.cs@gmail.com" class="footer-link" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="./liaozhu.pdf" class="footer-link" target="_blank"><i class="fa-solid fa-file"></i></a></li>
+        </ul>
+        <p class="copyright"><i class="fa-regular fa-copyright"></i> Liao Zhu 2022</p>
+        <p class="copyright">Designer of Panda Logo: <a href="https://www.linkedin.com/in/lily-dosedel/" class="desc-link" target="_blank">Lily Dosedel</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./static/script.js"></script>
+</body>
+</html>
