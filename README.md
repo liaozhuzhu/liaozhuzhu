@@ -1,4 +1,4 @@
-##👋 Hi there, I'm Liao
+## 👋 Hi there, I'm Liao
 
 #### Experience
 * SWE @ UIowa AIS (Spring 2023)
