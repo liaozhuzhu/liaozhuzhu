@@ -1,4 +1,4 @@
-## 👋 Hello, Liao here 💧⛰️🔥💨
+## Liao Zhu
 
 #### Experience
 * SWE @ UIowa AIS (Spring 2023)
