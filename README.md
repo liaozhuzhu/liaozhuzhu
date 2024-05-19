@@ -1,16 +1,12 @@
-### Hi there 👋
+## Liao Zhu
 
-<!--
-**liaozhuzhu/liaozhuzhu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### Experience
+* Undergraduate Researcher at Columbia University Amazon SURE Program (Summer 2024)
+* Undergraduate Researcher at University of Iowa Computational Epidemiology Research Group (Fall 2023 - Present)
+* President ACM at UIowa (Fall 2023 - Spring 2024)
+* SWE at UIowa Administrative Information Systems (Spring 2023)
+* SWE at Collins Aerospace (Summer 2023)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Contact Me 
+* 🐼 [liaozhu.dev](https://liaozhu.dev)
+* 📧 [liao.zhu.cs@gmail.com](liao.zhu.cs@gmail.com)
