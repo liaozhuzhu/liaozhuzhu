@@ -8,6 +8,6 @@
 * SWE at Collins Aerospace (Summer 2023)
 
 #### Contact Me 
-* 🐼 [liaozhuzhu.github.io](https://liaozhuzhu.github.io) (current site)
+* 🐼 [liaozhuzhu.vercel.app](https://liaozhuzhu.vercel.app) (current site)
 * 🐼 [liaozhu.dev](https://liaozhu.dev) (old site)
 * 📧 [liao.zhu.cs@gmail.com](liao.zhu.cs@gmail.com)
